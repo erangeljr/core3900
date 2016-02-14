@@ -1,5 +1,5 @@
           Assignment 2: Implmentation of Linked List Structures
-                             Huaqing Wang
+                             Eddie Rangel
 
 
 I.     Purpose: OOP & Doubly Linked List Data Structures, and Generic Classes in C#
