@@ -37,43 +37,77 @@ namespace core3900.Assignment1
             switch (input)
             {
                 case "G":
-                case "g":
-                  System.Console.WriteLine("Generating...");
+                case "g":                  
+                    Generate();
                     break;
                 case "S":
-                case "s":
-                    System.Console.WriteLine("Sorting...");
+                case "s":                    
+                    Sort();
                     break;
                 case "V":
-                case "v":
-                    System.Console.WriteLine("Show in Verctor and array...");
+                case "v":                    
+                    DisplayMembers();
                     break;
                 case "O":
-                case "o":
-                    System.Console.WriteLine("Save Objects into HTML...");
+                case "o":                    
+                    SaveMembers();
                     break;
                 case "F":
-                case "f":
-                    System.Console.WriteLine("Show Files...");
+                case "f":                    
+                    DisplayHtml();
                     break;
                 case "L":
-                case "l":
-                    System.Console.WriteLine("Launch...");
+                case "l":                    
+                    LaunchWebApp();
                     break;
                 case "H":
-                case "h":
-                    System.Console.WriteLine("Show display...");
+                case "h":                    
                     DisplayMenu();
                     break;
                 case "E":
-                case "e":
-                    System.Console.WriteLine("Exit...");
+                case "e":                    
+                    Shutdown();
                     break;
                 default:
                     System.Console.WriteLine("Invalid input:");
                     break;
 
             }
+        }
+
+        private static void Shutdown()
+        {
+            System.Console.WriteLine("Exit...");
+        }
+
+        private static void LaunchWebApp()
+        {
+            System.Console.WriteLine("Launch...");
+        }
+
+        private static void DisplayHtml()
+        {
+            System.Console.WriteLine("Show Files...");
+        }
+
+        private static void SaveMembers()
+        {
+            System.Console.WriteLine("Save Objects into HTML...");
+        }
+
+        private static void DisplayMembers()
+        {
+            System.Console.WriteLine("Show in Verctor and array...");
+        }
+
+        private static void Sort()
+        {
+            System.Console.WriteLine("Sorting...");
+        }
+
+        private static void Generate()
+        {
+            System.Console.WriteLine("Generating...");
         }
 
         private static void DisplayMenu()

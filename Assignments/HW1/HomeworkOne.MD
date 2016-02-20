@@ -83,15 +83,15 @@ III.	Specification:
 
 		================ CS 394 Homework 1 ===============
 		G/g:   Ask for a N, and generate N members of mixed
-                       Member class's objects, and store in a Vector 
+                       Member class's objects, and store in a List 
 		       and a array Objects.
 
-		S/s/ : Sort the members in the vector and array in
+		S/s/ : Sort the members in the List and array in
                        ascending order.
 
-		V/v/ : Show the members in the vector and array .
+		V/v/ : Show the members in the List and array .
 
-		O/o/ : Save objects inside vector into a HTML file
+		O/o/ : Save objects inside List into a HTML file
 		       with objects saved in the format of HTML
 		       Table.
 		F/f  : Show HTML file contents on screen.
@@ -123,7 +123,7 @@ IV.	Things worth to mention:
 
   1. Install .Net Core https://dotnet.github.io/
   2. Randomly generate mixed N members (including its subclass objects).
-     When an object is generated, add the N members into vector and array.
+     When an object is generated, add the N members into List and array.
   3. An class can 'extends' one class and can 'implements' many interfaces.
   4. An interface can 'extends' many interfaces.
   5. Methods in interfaces are always abstract and public even if you don't
