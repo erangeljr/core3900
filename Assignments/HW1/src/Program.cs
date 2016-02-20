@@ -8,12 +8,12 @@ namespace core3900.Assignment1
         const string MENU =
             "================ CS 394 Assignment 1 ===============  \n" +
             "G/g:   Ask for a N, and generate N members of mixed \n" +
-            "    Member class's objects, and store in a Vector  \n" +
+            "    Member class's objects, and store in a List  \n" +
             "     and a array Objects.\n" +
-            "S/s/ : Sort the members in the vector and array in \n" +
+            "S/s/ : Sort the members in the List and array in \n" +
             "     ascending order.\n" +
-            "V/v/ : Show the members in the vector and array .\n" +
-            "O/o/ : Save objects inside vector into a HTML file \n" +
+            "V/v/ : Show the members in the List and array .\n" +
+            "O/o/ : Save objects inside List into a HTML file \n" +
             "  with objects saved in the format of HTML \n" +
             "  Table.\n" +
             "F/f  : Show HTML file contents on screen.\n" +
