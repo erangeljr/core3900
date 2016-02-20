@@ -1,4 +1,5 @@
-﻿using System.CodeDom;
+﻿using System;
+using System.CodeDom;
 
 namespace core3900.Assignment1
 {
@@ -25,7 +26,54 @@ namespace core3900.Assignment1
         static void Main(string[] args)
         {
             DisplayMenu();
+            ProcessInput();
             System.Console.Read();
+        }
+
+        private static void ProcessInput()
+        {
+            var input = System.Console.ReadLine();
+            
+            switch (input)
+            {
+                case "G":
+                case "g":
+                  System.Console.WriteLine("Generating...");
+                    break;
+                case "S":
+                case "s":
+                    System.Console.WriteLine("Sorting...");
+                    break;
+                case "V":
+                case "v":
+                    System.Console.WriteLine("Show in Verctor and array...");
+                    break;
+                case "O":
+                case "o":
+                    System.Console.WriteLine("Save Objects into HTML...");
+                    break;
+                case "F":
+                case "f":
+                    System.Console.WriteLine("Show Files...");
+                    break;
+                case "L":
+                case "l":
+                    System.Console.WriteLine("Launch...");
+                    break;
+                case "H":
+                case "h":
+                    System.Console.WriteLine("Show display...");
+                    DisplayMenu();
+                    break;
+                case "E":
+                case "e":
+                    System.Console.WriteLine("Exit...");
+                    break;
+                default:
+                    System.Console.WriteLine("Invalid input:");
+                    break;
+
+            }
         }
 
         private static void DisplayMenu()

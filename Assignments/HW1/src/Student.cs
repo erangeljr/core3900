@@ -2,6 +2,9 @@
 
 namespace core3900.Assignment1
 {
+    /// <summary>
+    /// Student
+    /// </summary>
     public class Student : IMember
     {
         private float GPA;
@@ -11,11 +14,23 @@ namespace core3900.Assignment1
         public string LastName { get; }
         public long Id { get; }
 
+        //Default Constructor
+        public Student()
+        {
+        }
+
+        /// <summary>
+        /// Generates Students
+        /// </summary>
         public void Generate()
         {
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Helper method to return Student properties as a string
+        /// </summary>
+        /// <returns>This Student as String</returns>
         public string ToString()
         {
             throw new NotImplementedException();

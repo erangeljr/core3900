@@ -1,5 +1,8 @@
 ﻿namespace core3900.Assignment1
 {
+    /// <summary>
+    /// A Member serves as the main contract for reach human resource
+    /// </summary>
     public interface IMember
     {
         string FirstName { get; }

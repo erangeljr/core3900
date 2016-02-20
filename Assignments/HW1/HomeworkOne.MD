@@ -5,8 +5,8 @@ I.	Purpose: Object-Oriented Prgramming in C#
 
 II.	Description:
 
-   The exercise is aimed at practicing the object-oriented
-programming methodology C#. The OOP features, data encapsulation,
+   The purpose of this exercise is to practice the object-oriented
+programming methodologies with C#. The OOP features, data encapsulation,
 inheritance and polymorphism, are used to implment a group of related
 class. Save the class objects in HTML Table format into a HTML file,
 and display the html file by launching the default internet browser to
@@ -140,6 +140,7 @@ IV.	Things worth to mention:
   10. Always use a search engine (such as google) on any question you may have.
      For example, type "how to launch browser in C#" to search for what you
      want.
+  11. https://msdn.microsoft.com/en-us/library/dybz98h0%28v=vs.71%29.aspx
 
 V.	Files Available
 

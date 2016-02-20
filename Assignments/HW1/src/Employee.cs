@@ -2,6 +2,9 @@
 
 namespace core3900.Assignment1
 {
+    /// <summary>
+    /// Base Class for an Employee
+    /// </summary>
     public abstract class Employee: IMember
     {
         protected string department;
@@ -16,7 +19,7 @@ namespace core3900.Assignment1
             throw new NotImplementedException();
         }
 
-        public override string ToString()
+        public string ToString()
         {
             throw new NotImplementedException();
         }
