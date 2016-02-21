@@ -31,9 +31,9 @@ namespace core3900.Assignment1
         /// Helper method to return Student properties as a string
         /// </summary>
         /// <returns>This Student as String</returns>
-        public string ToString()
+        public override string ToString()
         {
-            throw new NotImplementedException();
+            return $"First name: {FirstName} Lastname: {LastName}";
         }
 
         public string ToString(bool success)
