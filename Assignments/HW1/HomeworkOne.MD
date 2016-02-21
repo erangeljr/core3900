@@ -83,17 +83,18 @@ III.	Specification:
 
 		================ CS 394 Homework 1 ===============
 		G/g:   Ask for a N, and generate N members of mixed
-                       Member class's objects, and store in a List 
+               Member class's objects, and store in a List 
 		       and a array Objects.
 
 		S/s/ : Sort the members in the List and array in
-                       ascending order.
+               ascending order.
 
 		V/v/ : Show the members in the List and array .
 
 		O/o/ : Save objects inside List into a HTML file
 		       with objects saved in the format of HTML
 		       Table.
+               
 		F/f  : Show HTML file contents on screen.
 
 		L/l  : Launch the default internet browser to

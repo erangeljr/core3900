@@ -5,20 +5,21 @@ namespace core3900.Assignment1
 {
     class Program
     {
+        
         const string MENU =
             "================ CS 394 Assignment 1 ===============  \n" +
-            "G/g:   Ask for a N, and generate N members of mixed \n" +
-            "    Member class's objects, and store in a List  \n" +
-            "     and a array Objects.\n" +
-            "S/s/ : Sort the members in the List and array in \n" +
-            "     ascending order.\n" +
-            "V/v/ : Show the members in the List and array .\n" +
-            "O/o/ : Save objects inside List into a HTML file \n" +
-            "  with objects saved in the format of HTML \n" +
-            "  Table.\n" +
-            "F/f  : Show HTML file contents on screen.\n" +
-            "L/l  : Launch the default internet browser to \n" +
-            " display the generated HTML file.\n" +
+            "G/g : Ask for a N, and generate N members of mixed \n" +
+            "       Member class's objects, and store in a List  \n" +
+            "       and a array Objects.\n" +
+            "S/s/: Sort the members in the List and array in \n" +
+            "       ascending order.\n" +
+            "V/v/: Show the members in the List and array .\n" +
+            "O/o/: Save objects inside List into a HTML file \n" +
+            "       with objects saved in the format of HTML \n" +
+            "       Table.\n" +
+            "F/f : Show HTML file contents on screen.\n" +
+            "L/l : Launch the default internet browser to \n" +
+            "       display the generated HTML file.\n" +
             " --------------------------------------------------\n" +
             " H/h/?: Display this menu.\n" +
             " E/e  : Exit\n" +
@@ -108,6 +109,21 @@ namespace core3900.Assignment1
         private static void Generate()
         {
             System.Console.WriteLine("Generating...");
+            Console.Write("How many members would you like to create? ");
+            var result = Console.ReadLine();
+
+            int number = 0;
+            if (Int32.TryParse(result, out number))
+            {
+                GenerateMembers(number);
+            }
+            
+        }
+
+        private static void GenerateMembers(int number)
+        {
+
+            Console.WriteLine("Generating {number} members");
         }
 
         private static void DisplayMenu()
