@@ -1,6 +1,11 @@
-﻿namespace core3900.Assignment1
+﻿using System;
+
+namespace core3900.Assignment1
 {
-    public interface IMember
+    /// <summary>
+    /// A Member serves as the main contract for reach human resource
+    /// </summary>
+    public interface IMember : IComparable<IMember>
     {
         string FirstName { get; }
         string LastName { get; }
@@ -9,7 +14,7 @@
         void Generate();
         string ToString();
         string ToString(bool success);
-        int CompareTo(IMember member);
+        new int CompareTo(IMember member);
         string HtmlRow();
         string HtmlColumns();
     }

@@ -2,6 +2,9 @@
 
 namespace core3900.Assignment1
 {
+    /// <summary>
+    /// Base Class for an Employee
+    /// </summary>
     public abstract class Employee: IMember
     {
         protected string department;
@@ -11,6 +14,10 @@ namespace core3900.Assignment1
         public string LastName { get; }
         public long Id { get; }
 
+        public Employee()
+        {
+        }
+
         public void Generate()
         {
             throw new NotImplementedException();
@@ -18,7 +25,7 @@ namespace core3900.Assignment1
 
         public override string ToString()
         {
-            throw new NotImplementedException();
+            return $"First name: {FirstName} Last name: {LastName}";
         }
 
         public string ToString(bool success)
@@ -26,9 +33,14 @@ namespace core3900.Assignment1
             throw new NotImplementedException();
         }
 
-        public int CompareTo(IMember member)
+        public int CompareTo(IMember employee)
         {
-            throw new NotImplementedException();
+            // If other is not a valid object reference, this instance is greater.
+            if (employee == null) return 1;
+
+            // The temperature comparison depends on the comparison of 
+            // the underlying Double values. 
+            return LastName.CompareTo(employee.LastName);
         }
 
         public string HtmlRow()
@@ -40,5 +52,6 @@ namespace core3900.Assignment1
         {
             throw new NotImplementedException();
         }
+        
     }
 }

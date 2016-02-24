@@ -5,8 +5,8 @@ I.	Purpose: Object-Oriented Prgramming in C#
 
 II.	Description:
 
-   The exercise is aimed at practicing the object-oriented
-programming methodology C#. The OOP features, data encapsulation,
+   The purpose of this exercise is to practice the object-oriented
+programming methodologies with C#. The OOP features, data encapsulation,
 inheritance and polymorphism, are used to implment a group of related
 class. Save the class objects in HTML Table format into a HTML file,
 and display the html file by launching the default internet browser to
@@ -83,17 +83,18 @@ III.	Specification:
 
 		================ CS 394 Homework 1 ===============
 		G/g:   Ask for a N, and generate N members of mixed
-                       Member class's objects, and store in a Vector 
+               Member class's objects, and store in a List 
 		       and a array Objects.
 
-		S/s/ : Sort the members in the vector and array in
-                       ascending order.
+		S/s/ : Sort the members in the List and array in
+               ascending order.
 
-		V/v/ : Show the members in the vector and array .
+		V/v/ : Show the members in the List and array .
 
-		O/o/ : Save objects inside vector into a HTML file
+		O/o/ : Save objects inside List into a HTML file
 		       with objects saved in the format of HTML
 		       Table.
+               
 		F/f  : Show HTML file contents on screen.
 
 		L/l  : Launch the default internet browser to
@@ -123,7 +124,7 @@ IV.	Things worth to mention:
 
   1. Install .Net Core https://dotnet.github.io/
   2. Randomly generate mixed N members (including its subclass objects).
-     When an object is generated, add the N members into vector and array.
+     When an object is generated, add the N members into List and array.
   3. An class can 'extends' one class and can 'implements' many interfaces.
   4. An interface can 'extends' many interfaces.
   5. Methods in interfaces are always abstract and public even if you don't
@@ -140,6 +141,8 @@ IV.	Things worth to mention:
   10. Always use a search engine (such as google) on any question you may have.
      For example, type "how to launch browser in C#" to search for what you
      want.
+  11. https://msdn.microsoft.com/en-us/library/dybz98h0%28v=vs.71%29.aspx
+  1v2. https://msdn.microsoft.com/en-us/library/618ayhy6.aspx 
 
 V.	Files Available
 
